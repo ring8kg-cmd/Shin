@@ -1,0 +1,10 @@
+# 전사 엔진 (필수)
+faster-whisper>=1.0.0
+
+# 요약 단계에서 Claude를 쓸 때만 필요 (ANTHROPIC_API_KEY 설정 시).
+# 없어도 추출 기반 폴백 요약으로 동작한다.
+anthropic>=0.40.0
+
+# 시스템 의존성: ffmpeg (pip 패키지가 아님)
+#   Ubuntu/Debian: sudo apt-get install -y ffmpeg
+#   macOS:         brew install ffmpeg

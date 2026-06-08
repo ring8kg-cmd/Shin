@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 파이프라인 산출물 (오디오/자막/요약)
+*.wav
+*.srt
+*.summary.md
+*.summary.masked.md
+*.masked.txt
+*.masked.srt
+
+# 모델 캐시
+.cache/
+models/
